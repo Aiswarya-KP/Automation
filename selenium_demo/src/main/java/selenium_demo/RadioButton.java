@@ -11,7 +11,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class RadioButton {
 
 	public static void main(String[] args) {
-		System.setProperty("webdriver.chrome.driver","driver/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\aiswa\\Downloads\\chromedriver_win32 (1)\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://demo.automationtesting.in/Register.html");
@@ -25,6 +25,7 @@ public class RadioButton {
 			{
 				driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 				Radio.get(i).click();
+				
 		}
 		
 	}

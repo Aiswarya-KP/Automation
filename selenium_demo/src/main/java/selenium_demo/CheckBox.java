@@ -11,7 +11,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class CheckBox {
 
 	public static void main(String[] args) {
-		System.setProperty("webdriver.chrome.driver","driver/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\aiswa\\Downloads\\chromedriver_win32 (1)\\chromedriver.exe\"");
 		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://demo.automationtesting.in/Register.html");

@@ -7,7 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class ChromeLaunch {
 
 	public static void main(String[] args) {
-		System.setProperty("webdriver.chrome.driver","driver/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\aiswa\\Downloads\\chromedriver_win32 (1)\\chromedriver.exe\"");
 		//System.setProperty("webdriver.gecko.driver","C:\\Users\\aiswa\\Downloads\\geckodriver-v0.32.0-win32\\ngeckodriver.exe");
 		WebDriver driver=new ChromeDriver();
 	

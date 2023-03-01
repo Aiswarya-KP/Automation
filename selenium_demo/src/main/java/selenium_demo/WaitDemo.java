@@ -12,7 +12,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class WaitDemo {
 
 	public static void main(String[] args) {
-		System.setProperty("webdriver.chrome.driver","driver/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\aiswa\\Downloads\\chromedriver_win32 (1)\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.linkedin.com/");
